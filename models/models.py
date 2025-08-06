@@ -2,10 +2,10 @@ from sqlalchemy import create_engine, Column, String, Integer, Boolean, Float, F
 from sqlalchemy.orm import declarative_base, relationship
 from sqlalchemy_utils.types import ChoiceType
 
-# db = create_engine("sqlite:///models/database.db")
+db = create_engine("sqlite:///models/database.db")
 
 # Vercel
-db = create_engine("sqlite:///:memory:", connect_args={"check_same_thread": False})
+# db = create_engine("sqlite:///:memory:", connect_args={"check_same_thread": False})
 
 Base = declarative_base()
 
