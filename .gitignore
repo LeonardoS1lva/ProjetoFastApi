@@ -1,0 +1,35 @@
+# Ambiente virtual
+.venv/
+venv/
+ENV/
+env/
+
+# Arquivos de configuração sensíveis
+.env
+*.env
+
+# Banco de dados SQLite
+*.db
+*.sqlite3
+
+# Cache do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Cache do pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Arquivos de log
+*.log
+
+# VSCode settings (opcional)
+.vscode/
+
+# Arquivos de testes
+htmlcov/
+.coverage
+.tox/
+.pytest_cache/
